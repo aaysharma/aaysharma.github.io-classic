@@ -18,5 +18,6 @@ FEEL FREE TO COPY THIS SOURCE CODE, REMEMBER THESE THINGS:
 - p=Yellow (Priority = Meh! Do when free)
   - add more pfps
   - contact me form
+  - visitor's count
 
 
