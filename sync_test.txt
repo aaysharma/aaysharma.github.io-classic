@@ -1,2 +1,0 @@
-Just a sync check between local and remote git repository.
-Test pull from git bash.
