@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Amatya Sharma</title>
+  
+  <meta name="author" content="Amatya Sharma">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/IIT-Kharagpur-01.jpg"> <!-- The icon on the header :: Change it p=yellow-->
+
+
+  <!-- new things--> 
+
+  <!-- <link rel="icon" href="data/icon.png"> -->
+  <!-- <meta name="viewport" content="width=device-width"> -->
+  <link href="https://fonts.googleapis.com/css?family=Didact Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+
+  <!-- New Scripts -->
+
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body *{
+      font-family: Verdana, "Trebuchet MS",  sans-serif ;
+        /*font-size: 1.8rem;*/
+  line-height: 1.5em;
+  word-spacing: 0.11em;
+  letter-spacing: 0.04em;
+  /*padding-left:240px;*/
+/*
+  font-weight: 500;*/
+    }
+
+
+
+
+
+    body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #1E1E23;
+  opacity:1;
+  font-family: 'work sans', sans serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  transition: 200ms;
+}
+a:hover {
+  opacity:0.5;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.container {
+  margin-top: 50px; 
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  background-color: #36383F;
+  border-radius: 40px;
+  width: 300px;
+  height: 600px;
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 30px 50px 100px #85888C;
+}
+.content {
+  border: 1px solid #36383F;
+  border-radius: 20px;
+  width: 94%;
+  height: 91%;
+  background-color: #F5F6FA;
+  overflow: hidden;
+}
+nav {
+  background-color: #1E1E23;
+  height: 65px;
+}
+
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: flex;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span
+{
+  display: flex;
+  width: 29px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -1px);
+  background: #36383F;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 180px;
+  height: 400px;
+  box-shadow: 0 0 10px #85888C;
+  margin: -50px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background-color: #F5F6FA;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  transition-delay: 2s;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+  </style>
+
+</head>
+
+<body style="background-color:#edffed;">
+
+ 
+    <div class="container">
+      <div class="phone">
+        <div class="content">
+          
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+           </div>
+          </nav>
+        </div>
+       </div>
+    </div>
+   
+</body>
+
+</html>
