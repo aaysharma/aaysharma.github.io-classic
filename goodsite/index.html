@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' href='main.css'>
+        <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+        <title>Arib Alam</title>
+    </head>
+    <body>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="./particleground-master/jquery.particleground.min.js"></script>
+        
+        <header class='section header' id="header">
+            <a name="header"></a>
+            <div class='intro'>
+                <div class='title'>
+                    Arib Alam
+                </div>
+                <div class='subtitle'>
+                    Software Developer and AI Enthusiast
+                </div>
+                <div class="navigator">
+                    <button class="nav_button" id="#about_button">ABOUT</button>
+                    <button class="nav_button" id="#projects_button">PROJECTS</button>
+                </div>
+            </div>
+            <a href="#about">
+                <i id="down_arrow" class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </header>
+        
+        <div class='section' id="about">
+            <a name='about'></a>
+            <div class="nav_wrapper">
+                <a href="#header">
+                    <i id="up_arrow" class="fa fa-chevron-up" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class='section_title'>About</div>
+            <div class="section_content center">
+                <div id="intro_text">Hi, I am Arib Alam, a Third Year Undergraduate Student from IIT Kharagpur</div>
+                <div id="summary_text">
+                    I am always driven towards making end-user softwares that affects the general public. 
+                    I am a Full Stack Web Developer. My recent web application 'Sarathi' aims at helping people to find travel groups.<br> 
+                    I am currently exploring the field of Artificial Intelligence and extremely fascinated by 
+                    the possibilities it has to offer. I have completed courses in Machine Learning/Deep Learning offered in Coursersa
+                    and have a couple of projects for the same. 
+                </div>
+            </div>
+            <div style="text-align: center">
+                <a href="https://github.com/aribalam">
+                    <i id="github_link" class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arib-a-792058102/">
+                    <i id="linkedin_link" class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:arib.alam.iitkgp@gmail.com">
+                    <i id="mail_link" class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="https://medium.com/@aribalam64">
+                    <i id="medium_link" class="fa fa-medium" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/arib.alam.7">
+                    <i id="facebook_link" class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/arib.alam/">
+                    <i id="insta_link" class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="nav_wrapper">
+                <a href="#projects">
+                    <i id="down_arrow" class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class='section' id="projects">
+            <a name="projects"></a>
+            <div class="nav_wrapper">
+                <a href="#about">
+                    <i id="up_arrow" class="fa fa-chevron-up" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class='section_title'>Projects</div>
+            <div class="section_content center" id="project_section_content">
+                <div class="project_box" id="http://sarathi.metakgp.org/">   
+                    <div class="project_box_header">
+                        <div class="project_box_title">Sarathi</div>
+                        <div class="project_type">NodeJS, ReactJS, MongoDB</div>
+                    </div>
+                    <div class="project_box_desc">
+                        A progressive web application for our college students to create or join travel groups and share rides.
+                    </div>
+                </div>
+                <div class="project_box" id="https://github.com/aribalam/deeplearning.ai-assignments/blob/master/Improving%20Neural%20Networks/week3/Hand_Sign_Detection.ipynb">
+                    <div class="project_box_header">
+                        <div class="project_box_title">Hand Sign Recognition using Deep Neural Network</div> 
+                        <div class="project_type">TensorFlow, Numpy, MatplotLib</div>
+                    </div>   
+                    <div class="project_box_desc">
+                        A Deep Neural Network model to recognize hand signs trained with 1080 images of hand signs.
+                    </div>
+                </div>
+                <div class="project_box" id="https://github.com/aribalam/deeplearning.ai-assignments/blob/master/Deep%20Neural%20Networks/week4/Building%20Deep%20Neural%20Network/deep_neural_network.ipynb">
+                    <div class="project_box_header">
+                        <div class="project_box_title">Building Neural Networks</div>
+                        <div class="project_type">Python, Numpy, MatplotLib</div>
+                    </div>
+                    <div class="project_box_desc">
+                        Implementation of Deep Neural Networks using Numpy and Improving the model by application of modern techniques
+                            and Hyperparameter Tuning.
+                    </div>
+                </div>
+                <div class="project_box" id="https://github.com/Graph-Algorithms-Visualizations/graph-algorithms"> 
+                    <div class="project_box_header">
+                        <div class="project_box_title">Graph Visualization Software</div> 
+                        <div class="project_type">Python, PyQt Framework</div> 
+                    </div>
+                    <div class="project_box_desc">
+                        A GUI application for graph construction and processing with options to save or open graph files
+                        as well as applying graph algorithms on it.
+                    </div>
+                </div>
+                <div class="project_box" id="https://github.com/lbs-iitkgp/Opensoft-2019">
+                    <div class="project_box_header">
+                        <div class="project_box_title">Lawbranian, Search Engine for the Law</div>
+                        <div class="project_type">Python, Flask, React, Spacy, Neo4J, ElasticsSearch</div>
+                    </div>
+                    <div class="project_box_desc">
+                        A web application that serves as a search engine for legal systems. Added features of applying filters as well as 
+                        getting short summaries and related documents.
+                    </div>    
+                </div>
+                <div class="project_box" id="https://github.com/aribalam/Algorithms-Projects/tree/master/src/assignments/burrowswheeler">
+                    <div class="project_box_header">
+                        <div class="project_box_title">Data Compression using Burrows Wheeler</div>
+                        <div class="project_type">Java, Algorithms and Data Structures</div>
+                    </div>
+                    <div class="project_box_desc">
+                        A data compression algorithm that uses Move-To-Front encoding and Burrows Wheeler transform to create character 
+                        sequences favourable for achieving high compression ratios using Huffman Encoding.
+                    </div>     
+                </div>
+                <div class="project_box" id="https://github.com/aribalam/Algorithms-Projects/tree/master/src/assignments/seamcarving">
+                    <div class="project_box_header">
+                        <div class="project_box_title">Seam Carving</div>
+                        <div class="project_type">Java, Algorithms and Data Structures</div>
+                    </div>
+                    <div class="project_box_desc">
+                            A content-aware image resizing technique that uses Topological Sorting to find seams of minimum total energy which
+                            is then removed to reduce the size of image.
+                    </div>     
+                </div> 
+                <div class="project_box" id="https://github.com/aribalam/BingImagify"> 
+                    <div class="project_box_header">
+                        <div class="project_box_title">BingImagify</div>
+                        <div class="project_type">Python</div>
+                    </div>
+                    <div class="project_box_desc">
+                        A Python application that downloads daily Bing Images and periodically sets it as the Home Screen Wallpaper.
+                    </div>
+                </div>
+                <!-- <div class="project_box" href=""> 
+                    <div class="project_box_header">
+                        <div class="project_box_title">BingImagify</div>
+                        <div class="project_type">Python</div>
+                    </div>
+                    <div class="project_box_desc">
+                        A Python application that downloads daily Bing Images and periodically sets it as the Home Screen Wallpaper.
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

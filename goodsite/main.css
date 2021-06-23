@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* background: #f2f6e9; */
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    z-index: -1;
+    background-color: lightcyan;
+}
+
+/* 
+    Introduction Title
+*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.title {
+    font-size: 10em;
+    /* color: white; */
+    text-align: center;
+    /* text-shadow: 5px 5px 20px black; */
+}
+
+.subtitle {
+    font-size: 3em;
+    /* color: white; */
+    text-align: center;
+    /* text-shadow: 5px 5px 20px black; */
+}
+
+.navigator {
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav_button {
+    box-sizing: border-box;
+    border: 0;
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+.nav_button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.nav_button:focus {
+    outline: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+
+/* 
+    Main Content
+*/
+
+.section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section_title {
+    font-size: 4em;
+    text-align: center;
+}
+
+.section_content {
+    flex-grow: 1;
+}
+
+/* 
+    Summary
+*/
+#intro_text {
+    font-size: 50px;
+    text-align: right;
+    width: 35%;
+    padding: 10px;
+}
+
+#summary_text {
+    width: 45%;
+    padding:10px;
+    font-size: 25px;
+}
+
+/* 
+    Project Sections
+*/
+#project_section_content {
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.project_box {
+    background-color: white;
+    height: 320px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 30px grey;
+}
+
+.project_box:hover {
+    box-shadow: 2px 2px 30px black;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.project_box_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project_box_header {
+    margin-bottom: 15px;
+}
+
+.project_box_desc {
+    font-size: 20px;
+}
+
+#projects {
+    background-image: url("./paint1.jpg");
+    background-size: cover;
+}
+
+#about {
+    background-image: url('./splash2.jpg');
+    background-size: cover;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column; 
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#facebook_link {
+    color: #3b5998;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#github_link {
+    color: black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#linkedin_link {
+    color: #0e76a8;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#mail_link {
+    color: red;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#medium_link {
+    color: black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#insta_link {
+    color: #E1306C;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+canvas {
+    position: absolute;
+}
+
+#down_arrow {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+    color: black;
+}
+
+#up_arrow {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: black;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
